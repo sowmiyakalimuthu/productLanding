@@ -1,0 +1,135 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  a{
+      text-decoration: none;
+      color: white;
+      padding: 21px;
+      font-size: larger;
+      font-weight: 700;
+  }
+  a:hover{
+      background-color: #333;
+  }
+  #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:rgb(246, 126, 83);
+    color: white;
+    z-index: 1;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  #nav-bar {
+    padding: 10px;
+    margin-right: 20px;;
+  }
+  
+  #nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #nav-bar li {
+    margin-left: 10px;
+    display: inline;
+    align-content: center;
+  }
+  
+  @media screen and (max-width: 600px) {
+    #nav-bar {
+      justify-content: center;
+    }
+  }
+  #whyUs{
+      background-color:  #333;
+      padding-bottom: 130px;
+      padding-top: 140px;
+  }
+  #whyUs section{
+      width: 500px;
+      margin: 10px auto;
+      padding-top: 10px;
+      color: white;
+  }
+  #form {
+    margin-top: 20px;
+    text-align: center;
+  }
+  #contact{
+      background-color:rgb(187, 187, 187);
+      padding: 20px;
+  }
+  .vid{
+      background-color:rgb(187, 187, 187);
+      padding: 50px;
+      margin: 0;
+  }
+  #form label, #form input[type="email"], #form input[type="submit"] {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  #video {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+  }
+  .vid h1{
+      text-align: center;
+  }
+  #products{
+      background-color: #333;
+      padding: 50px;
+  }
+  #proHead{
+      color: rgb(246, 126, 83);
+      text-align: center;
+  }
+  #products button{
+      background-color: rgb(246, 126, 83) ;
+      border: none;
+      width: 100px;
+      padding: 5px;
+      cursor: pointer;
+      font-size: larger;
+      border-radius: 3px;
+  }
+  #products img{
+      background-color: #333;
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+  }
+  #productsbody{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+      gap: 1%;
+  }
+  .product{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-width: 500px;
+      background-color:rgb(230, 226, 226);
+      margin: 10px;
+      gap: 5vh;
+      padding-bottom: 10px;
+      border-radius: 5px;
+  }
+  footer{
+      background-color:#333;
+      padding: 10px 0;
+      text-align: center;
+      color: rgb(179, 178, 178);
+      font-style: italic;
+  }
